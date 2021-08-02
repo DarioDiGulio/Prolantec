@@ -1,6 +1,5 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
-
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11,7 +10,6 @@
         padding: 15px 0px;
     }
 }
-
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
@@ -26,7 +24,6 @@
         margin: 0px 0px;
     }
     .menu-area-main {
-        height: 256px;
         overflow-y: auto;
     }
     .megamenu>.row [class*="col-"] {
@@ -84,7 +81,6 @@
     }
 }
 
-
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 280px) and (max-width: 599px) {
@@ -122,7 +118,6 @@
         float: none;
     }
     .menu-area-main {
-        height: 290px;
         overflow-y: auto;
     }
     .mean-container .mean-nav ul li a.mean-expand {
@@ -144,9 +139,6 @@
         font-size: 51px;
         line-height: 61px;
     }
-    .mean-last {
-        display: none !important;
-    }
     .about .about-box h3 {
         font-size: 30px;
         line-height: 30px;
@@ -161,7 +153,11 @@
         bottom: 0;
         padding: 0;
     }
-    .banner-main .carousel-caption h1 {padding-top: 0px; font-size: 36px; line-height: 43px;}
+    .banner-main .carousel-caption h1 {
+        padding-top: 0px;
+        font-size: 36px;
+        line-height: 43px;
+    }
     .footer .address h3 {
         font-size: 20px;
     }
@@ -175,23 +171,38 @@
         width: 26px;
         height: 26px;
     }
-    .choose_bg .white_bg .for_box h3 {font-size: 22px;}
-    .choose_bg .white_bg .for_box p {font-size: 16px;}
-    .product-bg .product-bg-white .product-box h3 {font-size: 13px;}
-    .yellow_bg .yellow-box a {margin-left: 0px;}
-    .contact h3 {font-size: 24px;}
+    .choose_bg .white_bg .for_box h3 {
+        font-size: 22px;
+    }
+    .choose_bg .white_bg .for_box p {
+        font-size: 16px;
+    }
+    .product-bg .product-bg-white .product-box h3 {
+        font-size: 13px;
+    }
+    .yellow_bg .yellow-box a {
+        margin-left: 0px;
+    }
+    .contact h3 {
+        font-size: 24px;
+    }
+
+    .service-box {
+        height: 50vh;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .main-menu ul>li a {
-       padding: 13px 12px 0 12px;
+        padding: 13px 12px 0 12px;
     }
     .full-slider_cont h1 {
         font-size: 40px;
         line-height: 50px;
     }
-    
-  .buy {display: none;}
+    .buy {
+        display: none;
+    }
     .banner-main .carousel-caption {
         background: transparent;
     }
@@ -206,32 +217,34 @@
     .banner-main .carousel-caption h1 {
         color: #020000;
         font-size: 32px;
-
-line-height: 37px;
-      
+        line-height: 37px;
         padding-top: 0px;
     }
     .banner-main .carousel-caption p {
         font-size: 15px;
-
-padding: 1px 0px 1px 0px;
+        padding: 1px 0px 1px 0px;
     }
     .banner-main .carousel-caption a {
         width: 182px;
         padding: 8px 0;
     }
-   
     .main_bt {
         margin-right: 15px;
         padding: 10px 41px 10px 41px;
     }
- 
-    .title h2 {font-size: 47px;}
-     .title span {font-size: 21px;}
-   
-     .service .service-box h3 {font-size: 17px;}
-
-    .yellow_bg .yellow-box a {margin-left: 0px; padding: 16px 39px;}
+    .title h2 {
+        font-size: 47px;
+    }
+    .title span {
+        font-size: 21px;
+    }
+    .service .service-box h3 {
+        font-size: 17px;
+    }
+    .yellow_bg .yellow-box a {
+        margin-left: 0px;
+        padding: 16px 39px;
+    }
     ul.socil_link li {
         padding-right: 15%;
     }
@@ -240,18 +253,20 @@ padding: 1px 0px 1px 0px;
         width: 113px;
     }
     .address {
-
-    margin-bottom: 30px;}
-.carousel-item img {
+        margin-bottom: 30px;
+    }
+    .carousel-item img {
         width: 100%;
         height: 400px;
-   
-}
+    }
+
+    .service-box {
+        height: 60vh;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .header {
-     
         padding-top: 35px;
     }
     .mean-container .mean-bar {
@@ -268,12 +283,11 @@ padding: 1px 0px 1px 0px;
         background: transparent;
     }
     .banner-main .carousel-caption h1 {
-
-    font-size: 45px;
-    line-height: 50px;
-    color: #020000;
-    padding-top: 0px;
-}
+        font-size: 45px;
+        line-height: 50px;
+        color: #020000;
+        padding-top: 0px;
+    }
     .banner-main .carousel-caption p {
         font-size: 17px;
         padding: 0px 0px 0px 0px;
@@ -282,14 +296,18 @@ padding: 1px 0px 1px 0px;
         width: 100%;
         height: 400px;
     }
-   
-     .head_top {
+    .head_top {
         display: none;
     }
-    .buy {display: none; } 
-    
-    .choose_bg .white_bg .for_box {margin-bottom: 30px;}
-    .read-more {margin-top: 10px;}
+    .buy {
+        display: none;
+    }
+    .choose_bg .white_bg .for_box {
+        margin-bottom: 30px;
+    }
+    .read-more {
+        margin-top: 10px;
+    }
     .address {
         margin-bottom: 30px;
     }
@@ -308,8 +326,7 @@ padding: 1px 0px 1px 0px;
         padding-bottom: 25px;
         float: inherit;
     }
-    #main_slider .carousel-control-prev,
-    #main_slider .carousel-control-next {
+    #main_slider .carousel-control-prev, #main_slider .carousel-control-next {
         width: 40px;
         height: 40px;
     }
@@ -324,48 +341,73 @@ padding: 1px 0px 1px 0px;
     .banner-main .carousel-caption h1 {
         font-size: 40px;
         line-height: 50px;
-       margin-bottom: 1px;
+        margin-bottom: 1px;
     }
     .banner-main .carousel-caption p {
         font-size: 17px;
         padding: 7px 0px 20px 0px;
         display: none;
     }
-    .banner-main .carousel-caption a {margin-top: 0px;}
+    .banner-main .carousel-caption a {
+        margin-top: 0px;
+    }
     .carousel-item img {
         width: 100%;
         height: 250px;
     }
-   
     .mean-container .mean-bar {
         margin-top: 0;
-    }
-    .mean-last {
-        display: none;
     }
     .head_top {
         display: none;
     }
-    .buy {display: none;  } 
+    .buy {
+        display: none;
+    }
     .main_bt {
         padding: 5px 24px 5px 24px;
         margin-right: 10px;
     }
-    .title h2 {font-size: 34px; line-height: 47px;}
-    .title span {font-size: 21px;}
-    .choose_bg .white_bg .for_box {margin-bottom: 30px;}
-    .read-more {margin-top: 10px;}
-    .product .title h2 {font-size: 40px;}
-    .product .title span {font-size: 21px;}
-   .Clients_bg_white .title h3 {font-size: 31px; line-height: 37px;}
-   .yellow_bg .yellow-box h3 {font-size: 20px;}
-   .yellow_bg .yellow-box i {display: inline-block;} 
+    .title h2 {
+        font-size: 34px;
+        line-height: 47px;
+    }
+    .title span {
+        font-size: 21px;
+    }
+    .choose_bg .white_bg .for_box {
+        margin-bottom: 30px;
+    }
+    .read-more {
+        margin-top: 10px;
+    }
+    .product .title h2 {
+        font-size: 40px;
+    }
+    .product .title span {
+        font-size: 21px;
+    }
+    .Clients_bg_white .title h3 {
+        font-size: 31px;
+        line-height: 37px;
+    }
+    .yellow_bg .yellow-box h3 {
+        font-size: 20px;
+    }
+    .yellow_bg .yellow-box i {
+        display: inline-block;
+    }
     .read-more a {
         width: 192px;
         padding: 12px 0px;
         font-size: 16px;
     }
-    .yellow_bg .yellow-box a {font-size: 21px; line-height: 25px; padding: 16px 55px; margin-left: 0px;}
+    .yellow_bg .yellow-box a {
+        font-size: 21px;
+        line-height: 25px;
+        padding: 16px 55px;
+        margin-left: 0px;
+    }
     .address {
         margin-bottom: 30px;
     }
