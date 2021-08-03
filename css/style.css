@@ -221,6 +221,16 @@ button {
 	padding: 0;
 }
 
+.visit{
+	color: #ff6814;
+	
+}
+
+.visit a:hover{
+	color: yellow;
+}
+
+
 /**-- heading section --**/
 
 .main_heading {
@@ -1200,6 +1210,16 @@ nav.main-menu {
 	text-align: center;
 }
 
+.first-slide{
+/* 	width: 100%;
+	height: 340px; */
+}
+
+.second-slide{
+/* 	width: 100%;
+	height: 340px; */
+}
+
 .text-a {
 	color: #fff;
 	text-transform: uppercase;
@@ -1609,9 +1629,21 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     layout new css 
 ---------------------------------------------------------------------*/
 
-#cita {
+.cita {
 	text-align: center;
 	text-align: justify;
+	font-family: "Latin Modern Roman 10";
+	font-size: 200%;
+	font-style: oblique;
+	text-align: center;
+}
+
+.about-text{
+	color: #070500;
+	font-size: 20px;
+	line-height: 28px;
+	margin-top: 20px;
+
 }
 
 .buy {
@@ -1628,7 +1660,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
 
 .head_top {
-	background: #002633;
+	background: #ff6814;
 	margin-bottom: 35px;
 }
 
@@ -2080,7 +2112,7 @@ ul.sociel_link li a {
 /** footer section **/
 
 .footer {
-	background: #1b1b1b;
+	background: #ff6814;
 	padding-top: 70px;
 }
 

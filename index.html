@@ -104,14 +104,20 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="https://prolantec.mercadoshops.com.ar/" target="_blank">
-                     <img class="first-slide" src="images/banner1.png" alt="First slide">
+                     <img class="first-slide" src="images/1.png" alt="First slide" id="imgBanner1">
                     </a>
                     <div class="container">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <a href="https://wa.link/4fgtgz" target="_blank">
-                    <img class="second-slide" src="images/banner2.png" alt="Second slide">
+                    <img class="second-slide" src="images/2.png" alt="Second slide" id="imgBanner2">
+                    </a>
+                    <div class="container">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="second-slide" src="images/3.png" alt="Third slide" id="imgBanner3">
                     </a>
                     <div class="container">
                     </div>
@@ -143,19 +149,19 @@
                  <div class="about_box">
                     <div class="col-md-8 offset-md-2">
                         <div class="title">
-                            <h2><strong class="black">NOSOTROS</strong></h2>
+                            <h2><strong class="black">Grupo Prolantec S.A.</strong></h2>
                         </div>
                     </div>
-                    <p>Somos una empresa Consultora y Distribuidora de productos técnicos para la construcción. Brindamos atención 
-                        personalizada a nuestros clientes para que tengan el mejor asesoramiento técnico mientras desarrollan su obra. </p>
-                    <p>Trabajamos en conjunto con las marcas más eficientes del país para que todos nuestros clientes puedan tener los 
-                        productos de mejor calidad, al mejor precio del mercado. </p>
-                    <p>Nuestro equipo está preparado para ofrecerte una asistencia técnica, eficaz y rápida, para que puedas cumplir
-                         y realizar todos los proyectos que te propongas. </p>
-                    <p>Hace años que nos dedicamos a la construcción, tanto comercial como residencial. Por eso, además de obtener los
-                    productos que estás buscando, vas a recibir el mejor asesoramiento. </p>
-                    <p>Años de trabajo en este rubro, nos han dado la experiencia necesaria para orientarte y ayudarte.</p>
-                    <blockquote class="cita" cite="http://www.worldwildlife.org/who/index.html">
+                    <span class="about-text">Somos una empresa Consultora y Distribuidora de productos técnicos para la construcción. Brindamos atención 
+                            personalizada a nuestros clientes para que tengan el mejor asesoramiento técnico mientras desarrollan su obra. </p>
+                        Trabajamos en conjunto con las marcas más eficientes del país para que todos nuestros clientes puedan tener los 
+                            productos de mejor calidad, al mejor precio del mercado. 
+                        Nuestro equipo está preparado para ofrecerte una asistencia técnica, eficaz y rápida, para que puedas cumplir
+                             y realizar todos los proyectos que te propongas. 
+                        Hace años que nos dedicamos a la construcción, tanto comercial como residencial. Por eso, además de obtener los
+                        productos que estás buscando, vas a recibir el mejor asesoramiento.
+                        Años de trabajo en este rubro, nos han dado la experiencia necesaria para orientarte y ayudarte.</span>
+                    <blockquote class="cita">
                         “Te ayudamos a hacer realidad ese proyecto que estás soñando”
                         </blockquote>
                  </div>
@@ -234,7 +240,7 @@
                         <h2><strong class="black">ALIADOS PROLANTEC</strong></h2>
                         <span>Tenemos una amplia gama de productos para que puedas realizar, sin inconvenientes, la construcción que estás llevando adelante. 
                             En Prolantec podés encontrar: impermeabilizantes, aditivos para hormigón y mortero, selladores, morteros de reparación, anclaje y grout, pisos, revestimientos, pinturas industriales… ¡y más!
-                            Visitá nuestra tienda online. 
+                            <a href="https://prolantec.mercadoshops.com.ar/" target="_blank" class="visit">Visitá nuestra tienda online.</a> 
                         </span>
                     </div>
                 </div>
@@ -348,11 +354,11 @@
                             <div class="container">
                                 <div class="carousel-caption text-bg">
                                     <div class="img_bg">
-                                        <i><img src="images/Zigurat.jpg" alt="avatar" /><span>ZIGURAT S.R.L.<br><strong</strong></span></i>
+                                        <i><img src="images/Zigurat.jpg" alt="avatar" /><span>Ruben Toloza<br><strong</strong></span></i>
                                     </div>
-                                    <p>“Prolantec colaboró con nosotros con grandes cantidades de GE 4000 AC para que 
-                                        llevemos adelante la restauración y refacción del Colegio Nacional Absalon Rojas 
-                                        en Santiago del Estero. Estamos súper agradecidos con su colaboración.”</p>
+                                    <p>
+                                        “Muy buen lugar y muy buena la atención”
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -360,11 +366,11 @@
                             <div class="container">
                                 <div class="carousel-caption text-bg">
                                     <div class="img_bg">
-                                        <i><img src="images/Zigurat.jpg" alt="avatar" /><span>ZIGURAT S.R.L.<br><strong</strong></span></i>
+                                        <i><img src="images/Zigurat.jpg" alt="avatar" /><span>Amado Textil<br><strong</strong></span></i>
                                     </div>
-                                    <p>“Prolantec colaboró con nosotros con grandes cantidades de GE 4000 AC para que 
-                                        llevemos adelante la restauración y refacción del Colegio Nacional Absalon Rojas 
-                                        en Santiago del Estero. Estamos súper agradecidos con su colaboración.”</p>
+                                    <p>
+                                    “Variedad y stock inmediato.”
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -482,6 +488,18 @@
             });
         });
 
+    </script>
+    <script>
+        const img = document.getElementById('imgBanner1');
+            if (screen.width < 992) {
+                img.src ="images/movil1";
+                }
+    </script>
+    <script>
+        const img = document.getElementById('imgBanner2');
+            if (screen.width < 992) {
+                img.src ="images/movil2";
+                }
     </script>
 </body>
 
