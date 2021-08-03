@@ -109,7 +109,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="https://prolantec.mercadoshops.com.ar/" target="_blank">
-                        <img class="first-slide" src="images/1.png" alt="First slide" id="imgBanner1">
+                        <img class="first-slide" src="images/1.gif" alt="First slide" id="imgBanner1">
                     </a>
                     <div class="container">
                     </div>
@@ -152,21 +152,26 @@
                                 <h2><strong class="black">Grupo Prolantec S.A.</strong></h2>
                             </div>
                         </div>
-                        <span class="about-text">Somos una empresa Consultora y Distribuidora de productos técnicos para
-                            la construcción. Brindamos atención
-                            personalizada a nuestros clientes para que tengan el mejor asesoramiento técnico mientras
-                            desarrollan su obra.
-                            Trabajamos en conjunto con las marcas más eficientes del país para que todos nuestros
-                            clientes puedan tener los
-                            productos de mejor calidad, al mejor precio del mercado.
-                            Nuestro equipo está preparado para ofrecerte una asistencia técnica, eficaz y rápida, para
-                            que puedas cumplir
-                            y realizar todos los proyectos que te propongas.
-                            Hace años que nos dedicamos a la construcción, tanto comercial como residencial. Por eso,
-                            además de obtener los
-                            productos que estás buscando, vas a recibir el mejor asesoramiento.
-                            Años de trabajo en este rubro, nos han dado la experiencia necesaria para orientarte y
-                            ayudarte.</span>
+                        <span class="about-text">
+                            <p>
+                                Somos una empresa Consultora y Distribuidora de productos técnicos para
+                                la construcción. Brindamos atención personalizada a nuestros clientes para que tengan el
+                                mejor asesoramiento técnico mientras desarrollan su obra.
+                            </p>
+                            <p>
+                                Trabajamos en conjunto con las marcas más eficientes del país para que todos nuestros
+                                clientes puedan tener los productos de mejor calidad, al mejor precio del mercado.
+                            </p>
+                            <p>
+                                Nuestro equipo está preparado para ofrecerte una asistencia técnica, eficaz y rápida,
+                                para que puedas cumplir y realizar todos los proyectos que te propongas.
+                            </p>
+                            <p>
+                                Hace años que nos dedicamos a la construcción, tanto comercial como residencial. Por
+                                eso, además de obtener los productos que estás buscando, vas a recibir el mejor
+                                asesoramiento.
+                            </p>
+                        </span>
                         <blockquote class="cita">
                             “Te ayudamos a hacer realidad ese proyecto que estás soñando”
                         </blockquote>
@@ -522,8 +527,10 @@
             const slider2 = document.getElementById('imgBanner2');
 
             if (parseInt(screen.width) < 992) {
-                slider1.src = "images/movil1.png";
+                slider1.src = "images/movil1.gif";
+                slider1.style.objectFit = "cover";
                 slider2.src = "images/movil2.png";
+                slider2.style.objectFit = "cover";
             }
         }
     </script>
