@@ -79,6 +79,30 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+
+    .product-bg .product-bg-white .product-box{
+        height: 550px;
+    }
+
+    #descriptionProduct{
+        display: none;
+    }
+
+   
+
+    #titleProduct{
+        display: none;
+    } 
+
+
+    #contacto{
+        display: block;
+        text-align: center;
+    }
+
+    #footer-content .contact{
+        padding: 30px;
+    }
 }
 
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
@@ -123,12 +147,34 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
+
+    #titleProduct{
+        display: none;
+    } 
+
+    .product-bg .product-bg-white .product-box{
+        height: 550px;
+    }
+
+    #descriptionProduct{
+        display: none;
+    }
+
+    #contacto{
+        display: block;
+        text-align: center;
+    }
+
+    #footer-content .contact{
+        padding: 30px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
     .banner-main .carousel-caption {
         background: transparent;
     }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -171,6 +217,10 @@
         width: 26px;
         height: 26px;
     }
+
+    .product-bg .product-bg-white .product-box{
+        height: 250px;
+    }
     .choose_bg .white_bg .for_box h3 {
         font-size: 22px;
     }
@@ -189,6 +239,10 @@
 
     .service-box {
         height: 50vh;
+    }
+
+    #contacto{
+        text-align: center;
     }
 }
 
@@ -238,6 +292,10 @@
     .title span {
         font-size: 21px;
     }
+
+    .service .service-box {
+        height: 350px;
+    }
     .service .service-box h3 {
         font-size: 17px;
     }
@@ -261,7 +319,36 @@
     }
 
     .service-box {
-        height: 60vh;
+        height: 600px;
+    }
+
+    .product-bg .product-bg-white .product-box{
+        height: 350px;
+    }
+    
+    #titleProduct{
+        font-size: medium;
+    }
+
+    #descriptionProduct{
+        font-size: small;
+    }
+
+    .news-box{
+        height: 200px;
+    }
+
+    #productBox{
+        height: 420px;
+    }
+
+    #contacto{
+        display: block;
+        text-align: center;
+    }
+
+    #footer-content .contact{
+        padding: 30px;
     }
 }
 
