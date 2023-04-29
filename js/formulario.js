@@ -14,3 +14,7 @@ function hideLoaderForm() {
     sendButton.style.display = '';
     loaderForm.style.display = 'none';
 }
+
+function submitContactForm() {
+    console.log('acá va el fetch!');
+}
