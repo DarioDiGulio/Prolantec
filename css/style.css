@@ -1666,18 +1666,28 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 
 ul.sociel_link {
 	display: flex;
-	justify-content: center;
-	margin: 0 auto;
+	justify-content: space-around;
+	align-items: center;
 	float: left;
-	display: inline-flexbox;
+	margin: 0 auto;
+	background-color: #ff6814;
+	width: 100%;
+}
+
+.socials{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
 }
 
 .top-box p {
 	float: right;
 	text-align: right;
-	margin: auto;
+	justify-self: center;
+	margin: 5px;
 	color: white;
-	display: inline;
+	display: flex;
 	font-size: 25px;
 }
 
@@ -1800,7 +1810,7 @@ ul.sociel_link li a {
 }
 
 .choose_bg {
-	background: #ff6814;
+	background: #fff;
 }
 
 .choose_bg .white_bg {
@@ -1813,10 +1823,12 @@ ul.sociel_link li a {
 .choose_bg .white_bg .for_box {
 	text-align: center;
 	padding: 1px;
+	justify-content: center;
 }
 
 .choose_bg .white_bg .for_box i {
-	display: block;
+	display: inline-block;
+	justify-content: center;
 }
 
 .choose_bg .white_bg .for_box h3 {
@@ -1825,30 +1837,6 @@ ul.sociel_link li a {
 	color: #070500;
 	padding: 25px 0px 15px 0px;
 	display: inline-block;
-}
-
-.choose_bg .white_bg .for_box p {
-	color: #0d0c0a;
-	font-size: 17px;
-	line-height: 28px;
-}
-
-.read-more {
-	width: 190px;
-	margin: 0 auto;
-	background: #fff;
-	display: block;
-	border: #ff6814 solid 2px;
-	text-align: center;
-	padding: 10px 0px;
-	color: #0a0401 !important;
-	font-size: 20px;
-	margin-top: 40px;
-}
-
-.read-more:hover {
-	background: #ff6814;
-	color: #0a0401;
 }
 
 /** end whyschose section **/
@@ -2284,13 +2272,13 @@ ul.lik li a:hover {
 /** Lastestnews **/
 
 .Lastestnews {
-	padding: 90px 0px;
+	padding: 50px 0px;
 	background: #fff;
 }
 
 .Lastestnews .titlepage {
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 .Lastestnews .titlepage span {
@@ -2321,10 +2309,6 @@ ul.lik li a:hover {
 	padding: 20px 20px 4px 20px;
 }
 
-.Lastestnews .news-box span {
-	color: #e61414;
-	margin-left: 20px;
-}
 
 .Lastestnews .news-box p {
 	color: #7b7a7a;
