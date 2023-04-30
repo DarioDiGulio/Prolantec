@@ -84,15 +84,22 @@
         height: 550px;
     }
 
+    #productBox{
+        height: 600px;
+    }
+    
+    #titleProduct{
+        font-size: medium;
+        
+    } 
+
     #descriptionProduct{
-        display: none;
+        font-size:small;
     }
 
-   
-
-    #titleProduct{
-        display: none;
-    } 
+     #photoProduct{
+        padding: 50px;
+    }
 
 
     #contacto{
@@ -148,16 +155,25 @@
         top: 0;
     }
 
+    #productBox{
+        height: 600px;
+    }
+    
     #titleProduct{
-        display: none;
+        font-size: medium;
+        
     } 
 
-    .product-bg .product-bg-white .product-box{
-        height: 550px;
+    #descriptionProduct{
+        font-size:small;
     }
 
-    #descriptionProduct{
-        display: none;
+     #photoProduct{
+        padding: 50px;
+    }
+
+    .product-bg .product-bg-white .product-box{
+        height: auto;
     }
 
     #contacto{
