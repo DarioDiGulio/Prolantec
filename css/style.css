@@ -444,7 +444,7 @@ a.readmore_bt {
 }
 
 nav.main-menu {
-	float: right;
+	float:left;
 	margin-left: 0;
 }
 
@@ -1640,6 +1640,12 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 	font-size: 200%;
 	font-style: oblique;
 	text-align: center;
+	color: #fff;
+}
+
+.texto-cita{
+	width: 100%;
+	background-color: #ff6814;
 }
 
 .about-text{
@@ -1647,6 +1653,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 	font-size: 20px;
 	line-height: 28px;
 	margin-top: 20px;
+	text-align: center;
 
 }
 
@@ -1686,13 +1693,12 @@ ul.sociel_link {
 }
 
 .top-box p {
-	float: right;
-	text-align: right;
-	justify-self: center;
-	margin: 5px;
+	float: left;
+	text-align: left;
+	justify-self: flex-start;
 	color: white;
 	display: flex;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 ul.sociel_link li {
@@ -1714,7 +1720,7 @@ ul.sociel_link li a:hover{
 }
 
 .header {
-	background: #fff;
+	background: #ff6814;
 	padding-bottom: 35px;
 }
 
@@ -2169,8 +2175,13 @@ ul.sociel li a:hover {
 	font-size: 18px;
 }
 
+.form-contact{
+	background-color: #fff;
+}
+
 .contact {
 	justify-content: center;
+	width: 100%;
 }
 
 .contact h3 {
@@ -2363,13 +2374,14 @@ ul.lik li a:hover {
 .about .about_box figure {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .about .about_box figure img {
-	width: 100%;
-	display: flex;
-	align-items: center;
+	display: block;
+	text-align: justify;
 }
+
 
 .about .about_box h3 {
 	color: #000;
