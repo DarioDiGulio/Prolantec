@@ -1920,7 +1920,6 @@ ul.sociel_link li a:hover{
 	background: #ffffffbd;
 	box-shadow: #00000040 0px 0px 25px 0px;
 	padding-top: 80px;
-	padding-bottom: 60px;
 }
 
 .product-bg-white-clients {
@@ -2057,6 +2056,7 @@ ul.sociel_link li a:hover{
 .yellow_bg {
 	background: #ff6814;
 	padding: 40px 30px;
+	width: 100%;
 }
 
 .yellow_bg .yellow-box h3 {
@@ -2115,7 +2115,6 @@ ul.sociel_link li a:hover{
 
 .footer {
 	background: #ff6814;
-	padding-top: 70px;
 }
 
 ul.sociel {
@@ -2157,7 +2156,6 @@ ul.sociel li a:hover {
 	background-color: #fff;
 	box-shadow: #00000040 0px 0px 25px 0px;
 	padding-top: 80px;
-	margin-top: 5px;
 
 }
 
