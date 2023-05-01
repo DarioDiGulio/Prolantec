@@ -593,16 +593,20 @@
                   <h2>ENVIANOS TU CONSULTA</h2>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                  <input class="form-control" placeholder="Nombre y Apellido" type="text" name="Your Name" />
+                  <p id="name-error" class="error-form">No ingresaste tu nombre</p>
+                  <input class="form-control" placeholder="Nombre y Apellido" type="text" name="name" />
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                  <input class="form-control" placeholder="Correo Electrónico" type="text" name="Email" />
+                  <p id="email-error" class="error-form">No ingresaste tu email</p>
+                  <input class="form-control" placeholder="Correo Electrónico" type="text" name="email" />
                 </div>
                 <div class="col-md-12">
-                  <input class="form-control" placeholder="Teléfono" type="text" name="Phone" />
+                  <p id="subject-error" class="error-form">No ingresaste el asunto</p>
+                  <input class="form-control" placeholder="Asunto" type="text" name="subject" />
                 </div>
                 <div class="col-md-12">
-                  <textarea class="textarea" placeholder="Mensaje"></textarea>
+                  <p id="message-error" class="error-form">No ingresaste el mensaje</p>
+                  <textarea class="textarea" name="message" placeholder="Mensaje"></textarea>
                 </div>
                 <div class="col-md-12" id="send-button">
                   <button class="send" onclick="submitContactForm()">Enviar</button>

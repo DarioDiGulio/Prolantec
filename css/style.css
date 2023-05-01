@@ -2432,6 +2432,13 @@ ul.lik li a:hover {
 	text-align: center;
 }
 
+/* FORM */
+.error-form {
+	color: red;
+	font-style: italic;
+	visibility: hidden;
+}
+
 /** slider arrow **/
 
 #main_slider .carousel-control-prev, #main_slider .carousel-control-next {
