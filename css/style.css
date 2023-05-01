@@ -1615,9 +1615,10 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 .cita {
 	text-align: center;
 	text-align: justify;
+	font-weight: bold;
 	font-family: "Latin Modern Roman 10";
 	font-size: 200%;
-	font-style: oblique;
+	text-transform: uppercase;
 	text-align: center;
 	color: #fff;
 }
@@ -2346,7 +2347,7 @@ ul.lik li a:hover {
 /** Lastestnews **/
 
 .about {
-	padding-top: 90px;
+	padding-top: 10px;
 }
 
 .about .about_box figure {
