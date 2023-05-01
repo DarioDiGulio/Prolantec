@@ -373,6 +373,7 @@
         padding-top: 35px;
     }
     .mean-container .mean-bar {
+        background-color: #ff6814;
         margin-top: 0px;
     }
     .relative {
@@ -460,6 +461,7 @@
     }
     .mean-container .mean-bar {
         margin-top: 0;
+        background-color: #ff6814;
     }
     .head_top {
         display: none;

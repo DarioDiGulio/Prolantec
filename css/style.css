@@ -444,19 +444,18 @@ a.readmore_bt {
 }
 
 nav.main-menu {
-	float:left;
 	margin-left: 0;
 }
 
 .menu-area-main li:hover a, .menu-area-main li:focus a {
-	color: #002633;
+	color: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .menu-area-main li.active a {
-	color: #002633;
+	color: #fff;
 }
 
 .right_cart_section {
@@ -1037,7 +1036,7 @@ nav.main-menu {
 	font-size: 16px;
 	display: inline-block;
 	font-weight: 500;
-	color: #010005;
+	color: #fff;
 	text-transform: uppercase;
 }
 
@@ -1663,7 +1662,6 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 	margin-top: 18px;
 	border-radius: 5px;
 	display: inline-block;
-	float: right;
 }
 
 .buy:hover {
@@ -1672,7 +1670,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 
 .head_top {
 	background: #ff6814;
-	margin-bottom: 35px;
+	margin-bottom: 5px;
 }
 
 ul.sociel_link {
