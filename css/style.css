@@ -2433,16 +2433,10 @@ ul.lik li a:hover {
 
 /** Lastestnews **/
 
-<<<<<<< HEAD
 .bannerImg{
 	width: 100%;
 	height: 635px;
-=======
-.about {
-	padding-top: 10px;
->>>>>>> 8db2b693700a2135addff68cd79d1d8b8a358c5a
 }
-
 
 .about .about_box figure {
 	display: flex;
