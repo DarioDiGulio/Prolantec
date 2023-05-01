@@ -1058,16 +1058,8 @@ nav.main-menu {
 	border-bottom: solid #eee 1px;
 }
 
-.main-menu ul>li .sub-down li a::before {
-	
-}
-
 .main-menu ul>li .sub-down li a:hover {
 	color: #111111;
-}
-
-.main-menu ul>li .sub-down li a:hover::before {
-
 }
 
 .main-menu ul li:first-child {
@@ -1131,7 +1123,7 @@ nav.main-menu {
 	vertical-align: middle;
 }
 
-.main-menu ul>li:nth-child (5) {
+.main-menu ul>li:nth-child(5) {
 	padding-right: 0px;
 }
 
@@ -1149,8 +1141,6 @@ nav.main-menu {
 	right: 0;
 	padding: 15px 0px;
 }
-
-.sub-full {}
 
 .simple-down {
 	padding: 15px;
@@ -1211,16 +1201,6 @@ nav.main-menu {
 	left: 0px;
 	right: 0px;
 	text-align: center;
-}
-
-.first-slide{
-/* 	width: 100%;
-	height: 340px; */
-}
-
-.second-slide{
-/* 	width: 100%;
-	height: 340px; */
 }
 
 .text-a {
