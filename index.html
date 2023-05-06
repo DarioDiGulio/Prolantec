@@ -83,7 +83,7 @@
       <div class="row">
         <div class="about_box" id="nosotros">
           <figure>
-            <img id="#nosotros-Prolantec" src="images/logo-prolantec-new.png" alt="logo" />
+            <img id="nosotros-Prolantec" src="images/logo-prolantec-new.png" alt="logo" />
           </figure>
         </div>
       </div>
@@ -553,78 +553,90 @@
           </div>
         </div>
       </div>
-      <div class="yellow_bg_max">
-        <div class="yellow_bg">
-          <div class="row">
-            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-              <div class="yellow-box">
-                <h3>
-                  ¡ASESORATE CON ESPECIALISTAS!
-                </h3>
-                <p>Envianos tus consultas al WhatsApp.</p>
-              </div>
-            </div>
-            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-              <div class="yellow-box">
-                <a href="https://wa.me/5491127955421" target="_blank">Escribinos</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <!-- end our product -->
-    <!-- map -->
-    <div class="form-contact" id="contacto">
-      <div class="contact">
-        <div class="container">
-          <div class="col-md-12">
-            <div class="main_form" id="contact-form">
+      <div class="product-bg" id="contacto">
+        <div class="product-bg-white">
+          <div class="container">
+            <div class="title">
+              <h2><strong class="black">CONTACTO</strong></h2>
+            </div>
+          </div>
+          <div class="yellow_bg_max">
+            <div class="yellow_bg">
               <div class="row">
-                <div class="title">
-                  <h2>ENVIANOS TU CONSULTA</h2>
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                  <div class="yellow-box">
+                    <h3>
+                      ¡ASESORATE CON ESPECIALISTAS!
+                    </h3>
+                    <p>Envianos tus consultas al WhatsApp.</p>
+                  </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                  <p id="name-error" class="error-form">No ingresaste tu nombre</p>
-                  <input class="form-control" placeholder="Nombre y Apellido" type="text" name="name" />
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                  <div class="yellow-box">
+                    <a href="https://wa.me/5491127955421" target="_blank">Escribinos</a>
+                  </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                  <p id="email-error" class="error-form">No ingresaste tu email</p>
-                  <input class="form-control" placeholder="Correo Electrónico" type="text" name="email" />
-                </div>
-                <div class="col-md-12">
-                  <p id="subject-error" class="error-form">No ingresaste el asunto</p>
-                  <input class="form-control" placeholder="Asunto" type="text" name="subject" />
-                </div>
-                <div class="col-md-12">
-                  <p id="message-error" class="error-form">No ingresaste el mensaje</p>
-                  <textarea class="textarea" name="message" placeholder="Mensaje"></textarea>
-                </div>
-                <div class="col-md-12" id="send-button">
-                  <button class="send" onclick="submitContactForm()">Enviar</button>
-                </div>
-                <div class="col-md-12" id="loader-container">
-                  <span class="loader-form"></span>
-                </div>
-              </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="container-fluid padi mt-2 mb-2">
-          <div class="map">
-            <div class="mapouter">
-              <div class="gmap_canvas" style="width: 100%">
-                <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                  src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=AV%20AMANCIO%20ALCORTA%20240%20BOULOGNE%20SAN%20ISIDRO+(Prolantec)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-                    href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
               </div>
             </div>
           </div>
-        </div>
+      
+          <!-- end our product -->
+          <!-- form -->
+          <div class="form-contact">
+            <div class="contact">
+              <div class="container">
+                <div class="col-md-12">
+                  <div class="main_form" id="contact-form">
+                    <div class="row">
+                      <div class="title">
+                        <h2>ENVIANOS TU CONSULTA</h2>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <p id="name-error" class="error-form">No ingresaste tu nombre</p>
+                        <input class="form-control" placeholder="Nombre y Apellido" type="text" name="name" />
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        <p id="email-error" class="error-form">No ingresaste tu email</p>
+                        <input class="form-control" placeholder="Correo Electrónico" type="text" name="email" />
+                      </div>
+                      <div class="col-md-12">
+                        <p id="subject-error" class="error-form">No ingresaste el asunto</p>
+                        <input class="form-control" placeholder="Asunto" type="text" name="subject" />
+                      </div>
+                      <div class="col-md-12">
+                        <p id="message-error" class="error-form">No ingresaste el mensaje</p>
+                        <textarea class="textarea" name="message" placeholder="Mensaje"></textarea>
+                      </div>
+                      <div class="col-md-12" id="send-button">
+                        <button class="send" onclick="submitContactForm()">Enviar</button>
+                      </div>
+                      <div class="col-md-12" id="loader-container">
+                        <span class="loader-form"></span>
+                      </div>
+                    </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid padi mt-2 mb-2">
+                <div class="map">
+                  <div class="mapouter">
+                    <div class="gmap_canvas" style="width: 100%">
+                      <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=AV%20AMANCIO%20ALCORTA%20240%20BOULOGNE%20SAN%20ISIDRO+(Prolantec)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                          href="https://www.maps.ie/distance-area-calculator.html">area maps</a></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+      
+      
+    
 
-      </div>
       <!-- end map -->
 
       <!--  footer -->
