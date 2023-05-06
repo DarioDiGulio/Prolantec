@@ -1768,11 +1768,19 @@ ul.sociel_link li a:hover{
 
 /** end service section **/
 
+#contacto > div > div.form-contact > div > div.container-fluid.padi.mt-2.mb-2 {
+	margin-bottom: 0 !important;
+}
+
 /** product section **/
 
 .product {
-	background: #fff;
 	padding-top: 60px;
+}
+
+#productosDestacados {
+	background-color: white;
+	box-shadow: #00000040 0 0 25px 0;
 }
 
 .product .title {
@@ -1806,7 +1814,7 @@ ul.sociel_link li a:hover{
 	margin-top: 20px;
 }
 
-.product-bg {
+#clientesPremium {
 	background: url(../images/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1872,7 +1880,6 @@ ul.sociel_link li a:hover{
 
 .Clients_bg_white {
 	background: #ffffffbd;
-	margin-top: 6px;
 	padding-bottom: 40px;
 }
 
