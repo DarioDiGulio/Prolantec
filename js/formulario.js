@@ -52,7 +52,7 @@ function submitContactForm() {
     const message = getFormValidatedData('message');
     if (isValid(name, email, subject, message)) {
         postData('https://prolantec-mailsender.onrender.com/send', {
-            subject: subject.value,
+            subject: 'Consulta - ' + subject.value,
             content: emailContentBy(name, email, message)
         }).then(() => {
             clearForm(name, email, subject, message)
