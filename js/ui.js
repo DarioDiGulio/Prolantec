@@ -1,10 +1,10 @@
 let actualIdx = 0;
 
 function cambiarImagenes() {
-    const brea = "../images/brea.jpg";
-    const pileta = "../images/pileta.jpeg";
-    const pistola = "../images/pistola-pegamento.jpeg";
-    const tinglado = "../images/imgTinglado.png";
+    const brea = "./../images/brea.jpg";
+    const pileta = "./../images/pileta.jpeg";
+    const pistola = "./../images/pistola-pegamento.jpeg";
+    const tinglado = "./../images/imgTinglado.png";
     const imagenes = [brea, pileta, pistola, tinglado]
     setInterval(() => {
         siguienteImagen(imagenes);
