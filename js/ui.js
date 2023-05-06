@@ -8,12 +8,13 @@ function cambiarImagenes() {
     const imagenes = [brea, pileta, pistola, tinglado]
     setInterval(() => {
         siguienteImagen(imagenes);
-    }, 2000);
+    }, 3000);
 }
 
 function siguienteImagen(imagenes) {
     const container = document.getElementsByClassName("bannerImg")[0];
-    (actualIdx === imagenes.length -1) ? actualIdx = 0 : actualIdx = actualIdx++
+    actualIdx++;
+    if (actualIdx === imagenes.length) actualIdx = 0;
     container.style.backgroundImage =  `url('${imagenes[actualIdx]}')`;
     console.log('Cambié imagen');
 }
