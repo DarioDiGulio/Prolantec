@@ -28,6 +28,5 @@ function updateYear() {
     year.innerText = getCurrentYear();
 }
 
-
 updateYear();
 cambiarImagenes();
