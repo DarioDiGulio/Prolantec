@@ -274,13 +274,11 @@ button {
 }
 
 .small_main_heading h2 {
-	padding: 2px 0 20px 0;
+	padding: 2px 0 20px 55px;
 	color: #114c7d;
 	font-weight: 400;
 	font-size: 28px;
-	background-image: url('../images/fevicon.png');
 	background-repeat: no-repeat;
-	padding-left: 55px;
 	letter-spacing: -0.5px;
 }
 
@@ -356,81 +354,6 @@ a.readmore_bt {
 	width: 280px;
 }
 
-/*----------------------------
-    scroll to top area
-----------------------------*/
-
-.scrollup {
-	float: right;
-	position: absolute;
-	color: #fff;
-	right: 20px;
-	padding: 0px 5px;
-	text-transform: uppercase;
-	font-weight: 600;
-	background: #38c8a8;
-	position: fixed;
-	bottom: 20px;
-	z-index: 99;
-	text-align: center;
-	color: #fff;
-	cursor: pointer;
-	border-radius: 0px;
-	opacity: 0;
-	backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
-	transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	-webkit-transform: scale(1);
-	transition: .2s all ease;
-	-moz-transition: .2s all ease;
-	-o-transition: .2s all ease;
-	-webkit-transition: .2s all ease;
-	width: 50px;
-	height: 50px;
-	border-radius: 100%;
-	line-height: 48px;
-	font-size: 16px;
-}
-
-.scrollup.b-show_scrollBut {
-	opacity: 1;
-	visibility: visible;
-}
-
-.top_awro {
-	background: #ee4a79 none repeat scroll 0 0;
-	cursor: pointer;
-	padding: 6px 8px;
-	position: fixed;
-	bottom: 59px;
-	right: 20px;
-	display: none;
-	height: 45px;
-	width: 45px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 30px;
-	transition: all 0.5s ease;
-}
-
-.sale_pro {
-	background: #f25252 !important;
-}
-
-.margin_top_50 {
-	margin-top: 50px;
-}
-
-.margin_bottom_30_all {
-	margin-bottom: 30px;
-}
-
-.text_align_center {
-	text-align: center;
-}
-
 /*---------------------------------------------------------------------
     header area
 ---------------------------------------------------------------------*/
@@ -475,7 +398,7 @@ nav.main-menu {
 }
 
 .main-menu ul>li nth:child(5) a {
-	padding-right: 0px;
+	padding-right: 0;
 }
 
 .right_cart_section ul li {
@@ -1216,7 +1139,7 @@ nav.main-menu {
 	font-size: 28px;
 	text-transform: uppercase;
 	line-height: 30px;
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .text-c {
@@ -1244,7 +1167,7 @@ nav.main-menu {
 }
 
 .is-sticky .sticky-wrapper-header .middle-area {
-	padding: 10px 0px
+	padding: 10px 0
 }
 
 .sticky-wrapper:not(.is-sticky) {
@@ -1351,8 +1274,8 @@ nav.main-menu {
 	content: "";
 	width: 100%;
 	height: 100%;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 }
 
 .heroslider .container {
@@ -1368,39 +1291,14 @@ nav.main-menu {
 	height: 100%;
 }
 
-.heroslider .slider-01 {
-	width: 100%;
-	background-image: url(../images/slider-01.jpg);
-	background-size: cover;
-	background-position: center;
-}
-
-.heroslider .slider-02 {
-	width: 100%;
-	background-image: url(../images/slider-02.jpg);
-	background-size: cover;
-	background-position: center;
-}
-
-.heroslider .slider-03 {
-	width: 100%;
-	background-image: url(../images/slider-03.jpg);
-	background-size: cover;
-	background-position: center;
-}
-
-.heroslider .slides li {
-	height: 600px;
-}
-
 .top-banner-slider .heroslider .slides li::before {
 	content: "";
 	position: absolute;
 	background: rgba(0, 0, 0, 0.4);
 	height: 100%;
 	width: 100%;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 }
 
 .top-banner-slider .flex_caption3 {
@@ -1513,7 +1411,7 @@ a.slide_banner:hover::before {
 
 .flex-control-nav {
 	background: #38c8a8;
-	bottom: 0px;
+	bottom: 0;
 	position: relative;
 }
 
@@ -1548,11 +1446,11 @@ a.slide_banner:hover::before {
 }
 
 .top-banner-slider .swiper-pagination {
-	padding: 10px 0px;
+	padding: 10px 0;
 }
 
 .heroslider .swiper-pagination {
-	bottom: 0px;
+	bottom: 0;
 	background: #38c8a8;
 }
 
@@ -1614,12 +1512,10 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 
 .cita {
 	text-align: center;
-	text-align: justify;
 	font-weight: bold;
-	font-family: "Latin Modern Roman 10";
+	font-family: "Latin Modern Roman 10", serif;
 	font-size: 200%;
 	text-transform: uppercase;
-	text-align: center;
 	color: #fff;
 }
 
@@ -1739,10 +1635,10 @@ ul.sociel_link li a:hover{
 .banner-main .carousel-caption a {
 	width: 250px;
 	background: #002633;
-	padding: 0px 0px;
+	padding: 0;
 	color: #fff;
 	font-size: 10px;
-	border-radius: 30px 0px 30px 30px;
+	border-radius: 30px 0 30px 30px;
 	display: inline-block;
 	text-align: center;
 	margin-top: 10px;
@@ -1846,7 +1742,7 @@ ul.sociel_link li a:hover{
 
 .service .service-box {
 	padding: 30px 20px;
-	box-shadow: #00000040 0px 0px 19px 0px;
+	box-shadow: #00000040 0 0 19px 0;
 	margin-bottom: 30px;
 	text-align: center;
 	height: 300px;
@@ -1861,7 +1757,7 @@ ul.sociel_link li a:hover{
 	font-size: 22px;
 	line-height: 22px;
 	color: #050000;
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 .service .service-box p {
@@ -1918,13 +1814,13 @@ ul.sociel_link li a:hover{
 
 .product-bg-white {
 	background: #ffffffbd;
-	box-shadow: #00000040 0px 0px 25px 0px;
+	box-shadow: #00000040 0 0 25px 0;
 	padding-top: 80px;
 }
 
 .product-bg-white-clients {
 	background: #ffffffbd;
-	box-shadow: #00000040 0px 0px 25px 0px;
+	box-shadow: #00000040 0 0 25px 0;
 	padding-top: 80px;
 	padding-bottom: 60px;
 }
@@ -2102,11 +1998,11 @@ ul.sociel_link li a:hover{
 
 .map img {
 	width: 100%;
-	padding: 0px;
+	padding: 0;
 }
 
 .padi {
-	padding: 0px;
+	padding: 0;
 }
 
 /** end map section **/
@@ -2126,7 +2022,7 @@ ul.sociel {
 
 ul.sociel li {
 	display: inline-block;
-	padding: 0px 10px;
+	padding: 0 10px;
 }
 
 ul.sociel li a {
@@ -2154,7 +2050,7 @@ ul.sociel li a:hover {
 
 .form-contact{
 	background-color: #fff;
-	box-shadow: #00000040 0px 0px 25px 0px;
+	box-shadow: #00000040 0 0 25px 0;
 	padding-top: 80px;
 
 }
@@ -2197,7 +2093,7 @@ ul.lik li a:hover {
 
 .copyright {
 	background-color: #002633;
-	padding: 20px 0px;
+	padding: 20px 0;
 	margin-top: 70px;
 }
 
@@ -2296,7 +2192,7 @@ ul.lik li a:hover {
 	display: block;
 	background: #000;
 	color: #fff;
-	padding: 12px 0px;
+	padding: 12px 0;
 	width: 100%;
 	font-size: 17px;
 }
@@ -2378,7 +2274,7 @@ ul.lik li a:hover {
   }
 
 .Lastestnews {
-	padding: 50px 0px;
+	padding: 50px 0;
 	background: #fff;
 }
 
@@ -2395,7 +2291,7 @@ ul.lik li a:hover {
 
 .Lastestnews .news-box {
 	background: #fff;
-	box-shadow: #ddd 0px 0px 8px 4px;
+	box-shadow: #ddd 0 0 8px 4px;
 	margin-bottom: 50px;
 	height: 490px;
 	text-align: center;
