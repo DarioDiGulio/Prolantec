@@ -2430,6 +2430,9 @@ ul.lik li a:hover {
 }
 
 /** Lastestnews **/
+body > header > div > div > div > div > div.mean-bar > a > span {
+	background-color: white !important;
+}
 
 .bannerImg{
 	display: flex;
