@@ -16,7 +16,17 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: prolantec.com
+          server: ftp.prolantec.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: public_html/
+          dry-run: true
+          protocol: ftps
+          port: 21
+          exclude: |
+            **/.github/**
+            **/.git*
+            **/.git*/**
+            .cpanel.yml
+            .gitignore.yml
+            README.md
